@@ -1,0 +1,10 @@
+body {
+    background-color: black;
+    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}

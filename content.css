@@ -1,0 +1,218 @@
+.content-container {
+    height: 100vh;
+    max-width: 80vw;
+    min-width: 35vw;
+    margin-left: 20px;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+
+.content-header {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+}
+
+.back-button {
+    height: 25px;
+    border-radius: 100px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header-content {
+    margin-left: 30px;
+    color: white;
+}
+
+.header-title {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.header-subtitle {
+    color: grey;
+    font-size: 14px;
+}
+
+.background-picture-container {
+    background-color: rgb(33, 33, 36);
+    height: 200px;
+    width: 100%;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-picture-container {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -78px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.profile-picture {
+    height: 145px;
+    width: 145px;
+    border-radius: 100px;
+}
+
+.edit-profile-button {
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 120px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 1px solid rgb(69, 76, 82);
+    border-radius: 100px;;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.edit-profile-button:hover {
+    transition: 0.2s;
+    background-color: rgba(48, 47, 47, 0.418);
+}
+
+.profile-bio-container {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.bio-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.name {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.verified-button {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(69, 76, 82);
+    border-radius: 100px;
+    padding-right: 7px;
+    padding-left: 2px;
+    width: 110px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.verified-button:hover {
+    transition: 0.2s;
+    background-color: rgba(48, 47, 47, 0.418);
+}
+
+.verified-icon {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.bio-username {
+    color: grey;
+    font-size: 14px;
+}
+
+.bio-info {
+    color: white;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.join-date-container {
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.calander-icon {
+    height: 35px;
+    margin-left: -5px;
+    margin-right: -3px;
+}
+
+.followers-container {
+    margin-top: 10px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.followers {
+    margin-left: 20px;
+}
+
+.followers:hover, 
+.following:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.followers-container span {
+    font-weight: bold;
+    color: white;
+}
+
+.profile-navbar {
+    margin-left: -15px;
+    margin-top: 25px;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.button,
+.selected-button {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    border: 0;
+    color: grey;
+    font-size: 16px;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.selected-button {
+    color: white;
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: rgb(54, 122, 199);
+    border-radius: 100px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.button:hover,
+.selected-button:hover {
+    transition: 0.2s;
+    background-color: rgba(48, 47, 47, 0.418);
+}
