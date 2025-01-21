@@ -146,7 +146,7 @@
         align-items: center;
         justify-content: center;
         margin-left: 10px;
-    }., 
+    }.
 }
 
 @media only screen and (max-device-height: 1000px) {
@@ -230,3 +230,4 @@
 .jobs-icon {
     margin-right: 22px;
 }
+
